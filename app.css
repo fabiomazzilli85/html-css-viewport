@@ -19,7 +19,7 @@ body {
     display: flex; 
     flex-direction: column;
     justify-content: space-between;
-    height: 85vh;
+    height: 92vh;
 }
 
 .main_footer {
