@@ -22,10 +22,11 @@ body {
     margin-left: 15px;
     border-left: white;
     display: flex;
+    flex-wrap: wrap;
 }
 
 #app {
-	height: 100vh;
+	height: calc(100vh - 100px);
 	background-color: #141923;
 	color: white;
 	display: flex;
@@ -60,6 +61,7 @@ ul, li {
 
 .nav_footer  {
     display: flex;
+    height: 100px;
     gap: 30px;
     list-style: none;
     align-items: center;
@@ -68,4 +70,11 @@ ul, li {
     background-color: #282828;
     color: white;
     padding: 10px;
+}
+
+.button {
+    background-color: white;
+    color: #141923;
+    border-radius: 4px;
+    padding: 8px;
 }
